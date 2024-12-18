@@ -15,22 +15,16 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.github.jengelman.gradle.plugins</groupId>
-                <artifactId>shadow</artifactId>
-                <version>7.0.0</version>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
                 <executions>
                     <execution>
-                        <phase>package</phase>
                         <goals>
-                            <goal>shadow</goal>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <!-- Utiliser la même propriété -->
-                    <outputDirectory>${outputDirectory}</outputDirectory>
-                    <archiveName>ChatPlugin.jar</archiveName>
-                </configuration>
             </plugin>
         </plugins>
     </build>
