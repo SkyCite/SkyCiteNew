@@ -1,4 +1,4 @@
-package main.java.com.skyserver.banque;
+package com.skyserver.banque;
 
 public class BanquePlugin {
 }

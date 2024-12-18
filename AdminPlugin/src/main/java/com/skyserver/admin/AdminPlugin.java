@@ -1,4 +1,4 @@
-package main.java.com.skyserver.admin;
+package com.skyserver.admin;
 
 public class AdminPlugin {
 }
